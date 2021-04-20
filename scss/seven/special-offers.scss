@@ -1,0 +1,83 @@
+.special-offers {
+  min-height: 875px;
+  max-width: 981px;
+  //   background-color: red;
+  margin: 0 auto;
+  font-family: Gill;
+
+  .special-title {
+    margin-top: 55px;
+    min-height: 94px;
+    font-size: 30px;
+    max-width: 981px;
+    // background-color: brown;
+    font-family: Gill;
+  }
+
+  .barc {
+    min-height: 287px;
+    max-width: 981px;
+    // background-color: cadetblue;
+    display: flex;
+
+    .barc-image {
+      //   background-color: chartreuse;
+      width: 199px;
+      height: 287px;
+      background-image: url(../assests/images/special-images/special-offer-01.jpg);
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+    }
+
+    .barc-text {
+      .barc-title {
+        font-size: 30px;
+        padding-left: 20px;
+      }
+
+      .barc-para {
+        padding-left: 20px;
+        padding-top: 30px;
+        width: 290px;
+      }
+    }
+  }
+
+  .bangkok {
+    margin-top: 60px;
+    min-height: 287px;
+    max-width: 981px;
+    // background-color: purple;
+    display: flex;
+
+    .bang-image {
+      //   background-color: chartreuse;
+      width: 199px;
+      height: 287px;
+      background-image: url(../assests/images/special-images/special-offer-02.jpg);
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+    }
+
+    .bang-text {
+      .bang-title {
+        font-size: 30px;
+        padding-left: 20px;
+      }
+
+      .bang-para {
+        padding-left: 20px;
+        padding-top: 30px;
+        width: 290px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .special-offers {
+    width: 600px;
+  }
+}

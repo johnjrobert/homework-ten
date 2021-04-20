@@ -1,0 +1,35 @@
+@import "variables.scss";
+@import "structure.scss";
+@import "nav.scss";
+@import "about.scss";
+
+//Home assests
+@import "home/hero.scss";
+@import "home/promo-tours.scss";
+@import "home/booking-form.scss";
+@import "footer/footer.scss";
+
+@import "seven/blog.scss";
+@import "seven/contact.scss";
+@import "seven/special-offers.scss";
+@import "seven/structure.scss";
+// @import "seven/styles.scss"
+@import "seven/variables.scss";
+@import "seven/header/header.scss";
+@import "seven/footer/footer.scss";
+
+@import "eight/footer/footer.scss";
+@import "eight/header/header.scss";
+@import "eight/nav.scss";
+@import "eight/structure.scss";
+@import "eight/tours.scss";
+@import "eight/variables.scss";
+@import "eight/tour-pages/aust-tour-page.scss";
+@import "eight/tour-pages/canada-tour-page.scss";
+@import "eight/tour-pages/egypt-tour-page.scss";
+@import "eight/tour-pages/france-tour-page.scss";
+@import "eight/tour-pages/isreal-tour-page.scss";
+@import "eight/tour-pages/japan-tour-page.scss";
+@import "eight/tour-pages/nz-tour-page.scss";
+@import "eight/tour-pages/uae-tour-page.scss";
+@import "eight/tour-pages/usa-tour-page.scss";

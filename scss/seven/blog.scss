@@ -1,0 +1,150 @@
+.blog-title {
+  max-width: 980px;
+  min-height: 35px;
+  font-size: 30px;
+  font-family: Gill;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.blog {
+  max-width: 980px;
+  min-height: 860px;
+  //   background-color: chocolate;
+  margin: 0 auto;
+  padding-top: 55px;
+  font-family: Gill;
+
+  .blog1 {
+    max-width: 980px;
+    min-height: 377px;
+    margin: 0 auto;
+    // background-color: cornflowerblue;
+    display: flex;
+
+    .blueIcon {
+      width: 80px;
+      min-height: 377px;
+      //   background-color: crimson;
+
+      .blue-button {
+        width: 60px;
+        height: 60px;
+        background-color: $travel-blue;
+        margin-right: 20px;
+      }
+    }
+
+    .blogPiece {
+      max-height: 376px;
+      min-width: 900px;
+      //   background-color: darkblue;
+      .blogImage {
+        min-height: 259px;
+        max-width: 900px;
+        background-image: url(../assests/images/blog/blog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-color: crimson;
+        // margin: 0 auto;
+      }
+
+      .blogText {
+        font-size: 15px;
+        .black-text {
+          color: black;
+          font-size: 15px;
+        }
+        .blue-text {
+          color: $travel-blue;
+          font-size: 15px;
+          margin-left: 5px;
+          width: 380px;
+        }
+      }
+    }
+  }
+
+  .blog2 {
+    max-width: 980px;
+    min-height: 377px;
+    margin: 0 auto;
+    // background-color: cornflowerblue;
+    display: flex;
+
+    .blueIcon {
+      width: 80px;
+      min-height: 377px;
+      //   background-color: crimson;
+
+      .blue-button {
+        width: 60px;
+        height: 60px;
+        background-color: $travel-blue;
+        margin-right: 20px;
+      }
+    }
+
+    .blogPiece {
+      max-height: 376px;
+      min-width: 900px;
+      //   background-color: darkblue;
+      .blogImage {
+        min-height: 259px;
+        max-width: 900px;
+        background-image: url(../assests/images/blog/blog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-color: crimson;
+        // margin: 0 auto;
+      }
+
+      .blogText {
+        font-size: 15px;
+        .black-text {
+          color: black;
+          font-size: 15px;
+        }
+        .blue-text {
+          color: $travel-blue;
+          font-size: 15px;
+          margin-left: 5px;
+          width: 380px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .blog-title {
+    margin: 0 auto;
+    width: 75px;
+  }
+
+  .blog {
+    width: 600px;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .blog1 {
+      .blogPiece {
+        width: 500px;
+        .blogImage {
+          width: 500px;
+        }
+      }
+    }
+
+    .blog2 {
+      .blogPiece {
+        width: 500px;
+        .blogImage {
+          width: 500px;
+        }
+      }
+    }
+  }
+}

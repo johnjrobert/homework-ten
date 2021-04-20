@@ -1,0 +1,139 @@
+.egyptHero {
+    min-height: 413px;
+    max-width: 981px;
+    background-color: brown;
+    margin: 0 auto;
+    // padding-top: 50px;
+    background-image: linear-gradient(to right, $travel-black, $travel-black), 
+    url(../assests/images/tours-page/tour-06.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .heroTitle {
+        color: white;
+        padding-left: 15px;
+        padding-top: 20px;
+        font-size: 80px;
+    }
+
+    .starting {
+        color: white;
+        padding-top: 400px;
+        padding-left: 640px;
+        font-size: 30px;
+
+    }
+
+}
+
+.egyptImages {
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 981px;
+    min-height: 347px;
+    // background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+
+    .egyptPicOne {
+        height: 347px;
+        width: 298px;
+        background-color: cadetblue;
+        background-image: url(../assests/images/tour-egypt/egypt-tour-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .egyptPicTwo {
+        height: 347px;
+        width: 298px;
+        background-color: cadetblue;
+        background-image: url(../assests/images/tour-egypt/egypt-tour-02.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .egyptPicThree {
+        height: 347px;
+        width: 298px;
+        background-color: cadetblue;
+        background-image: url(../assests/images/tour-egypt/egypt-tour-03.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+.egyptDays {
+    padding-top: 30px;
+    flex-direction: column;
+    // background-color: red;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    // min-height: 775px;
+    max-width: 981px;
+
+    .egyptDayOne {
+        
+        max-width: 981px;
+        min-height: 205px;
+        // background-color: chocolate;
+        // padding-bottom: 100px;
+    }
+
+    .egyptDayTwo {
+        // padding-top: 100px;
+        max-width: 981px;
+        min-height: 205px;
+        // background-color: chocolate;
+    }
+
+    .egyptDayThree {
+        // padding-top: 100px;
+        max-width: 981px;
+        min-height: 205px;
+        // background-color: chocolate;
+    }
+
+}
+
+
+.block {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bookNow {
+        
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: cornflowerblue;
+    }
+
+}
+
+@media only screen and (max-width: 1160px) {
+    .egyptDays {
+      width: 800px;
+    }
+
+    .egyptImages {
+        width: 350px;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
+    .egyptHero {
+        width: 800px; 
+    }
+  }

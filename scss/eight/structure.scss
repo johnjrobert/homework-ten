@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+
+  .day {
+    font-size: 60px;
+    font-family: Gill;
+  }
+
+  .para {
+    font-size: 16px;
+    font-family: Prox;
+  }
+
+  
+
+  .learn-more a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .bookNow {
+    border-radius: 25px;
+    width: 133px;
+    height: 40px;
+    background-color: $travel-blue;
+    color: $travel-white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Gill;
+    border-radius: 25px;
+  }
+
+  .heroTitle {
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 80px;
+    font-family: Gill;
+    
+}
+
+.starting {
+    color: white;
+    padding-top: 400px;
+    padding-left: 640px;
+    font-size: 30px;
+    font-family: Gill;
+
+}
+
+
+  
+  @font-face {
+    font-family: Gill;
+    src: url("fonts/GillSansMTPro-Book.otf");
+  }
+  
+  @font-face {
+    font-family: Prox;
+    src: url(fonts/proximaNovaScOsfExtraCondensed.tff);
+  }

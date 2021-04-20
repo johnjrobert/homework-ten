@@ -1,0 +1,490 @@
+.heroTours {
+    min-height: 200px;
+    max-width: 981px;
+    // background-color: purple;
+    background-image: url(../assests/images/tours-page/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+    
+
+    .heroTitle {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 60px;
+        color: white; 
+        font-family: Gill;
+        
+        
+    }
+    
+}
+
+.toursPage {
+    max-width: 820px;
+    min-height: 500px;
+    // background-color: black;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+
+    .rowOne {
+        display: flex;
+        justify-content: space-between;
+
+
+        .isreal {
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-01.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .isreal-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .isreal-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+            
+        }
+
+        .usa {
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-02.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .usa-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .usa-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+        }
+
+        .aust {
+            
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-03.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .aust-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .aust-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+            
+        }
+
+
+
+
+    }
+
+    .rowTwo {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+
+
+        .nz {
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-04.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+
+            .nz-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .nz-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+        }
+
+        .france {
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-05.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .france-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .france-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+        }
+
+        .egypt {
+            
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-06.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+
+            .egypt-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .egypt-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+            
+        }
+
+
+
+
+    }
+
+    .rowThree {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        padding-bottom: 100px;
+
+
+        .japan {
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-07.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .japan-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .japan-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+        }
+
+        .canada {
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-08.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .canada-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .canada-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+        }
+
+        .uae {
+            
+            height: 304px;
+            width: 236px;
+            background-color: blueviolet;
+            background-image: linear-gradient(to right, $travel-black, $travel-black), 
+            url(../assests/images/tours-page/tour-09.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .uae-header {
+                padding-top: 60px;
+                text-align: center;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .uae-cost {
+                text-align: center;
+                padding-bottom: 60px;
+                color: $travel-white;
+                font-family: Gill;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                background-color: $travel-blue;
+                color: $travel-white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Gill;
+                border-radius: 25px;
+                //Find a way to center vertically that will work.
+              }
+            
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1160px) {
+    .heroTours {
+      width: 800px;
+    }
+
+    .rowOne {
+        width: 350px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        
+        
+        
+    }
+
+    .rowTwo {
+        width: 350px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        
+        
+        
+    }
+
+    .rowThree {
+        width: 350px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+
+        // .japan {
+        //     padding-top: 10px;
+        // }
+        
+        
+        
+    }
+
+    .uaeHero {
+        width: 800px; 
+    }
+  }

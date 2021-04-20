@@ -1,0 +1,132 @@
+.about {
+  max-width: 980px;
+  max-height: 1000px;
+  align-items: center;
+  font-family: Gill;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.about .aboutHeader {
+  width: 230px;
+}
+
+.about .aboutHeader .aheader {
+  font-size: 60px;
+}
+
+.about .aboutHeader .bottomBorder {
+  padding-top: 0;
+  width: 130px;
+  height: 2px;
+  background-color: black;
+}
+
+.about .aboutPara {
+  padding-top: 35px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1160px) {
+  .about {
+    width: 350px;
+  }
+}
+.client {
+  max-width: 980px;
+  margin: 0 auto;
+  font-family: Gill;
+}
+
+.client .clientHeader {
+  padding-top: 120px;
+  font-size: 40px;
+}
+
+.client .bottomBorderTwo {
+  padding-top: 0;
+  width: 230px;
+  height: 2px;
+  background-color: black;
+}
+
+.client .miranda {
+  padding-top: 35px;
+  display: flex;
+}
+
+.client .miranda .mirandaPic {
+  height: 150px;
+  width: 260px;
+  background-image: url(../assests/images/about-client-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.client .miranda .mirandaQuote {
+  padding-left: 25px;
+  height: 150px;
+  width: 440px;
+}
+
+.client .miranda .mirandaQuote .byLine {
+  width: 150px;
+  height: 50px;
+  margin-left: 350px;
+  font-size: 20px;
+  color: #79addc;
+}
+
+.client .john {
+  padding-top: 35px;
+  display: flex;
+}
+
+.client .john .johnPic {
+  height: 150px;
+  width: 260px;
+  background-color: blue;
+  background-image: url(../assests/images/about-client-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.client .john .johnQuote {
+  height: 150px;
+  width: 440px;
+  padding-left: 25px;
+  padding-bottom: 255px;
+}
+
+.client .john .johnQuote .byLineTwo {
+  width: 150px;
+  height: 50px;
+  margin-left: 350px;
+  font-size: 20px;
+  color: #79addc;
+}
+
+@media only screen and (max-width: 1160px) {
+  .client {
+    width: 350px;
+  }
+
+  .client .miranda {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .client .miranda .mirandaQuote {
+    padding-top: 15px;
+  }
+
+  .client .john {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .client .john .johnQuote {
+    padding-top: 15px;
+  }
+}

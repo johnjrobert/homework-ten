@@ -1,0 +1,140 @@
+.nzHero {
+    min-height: 413px;
+    max-width: 981px;
+    background-color: brown;
+    margin: 0 auto;
+    // padding-top: 50px;
+    background-image: linear-gradient(to right, $travel-black, $travel-black), 
+    url(../assests/images/tours-page/tour-04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .heroTitle {
+        color: white;
+        padding-left: 15px;
+        padding-top: 20px;
+        font-size: 80px;
+    }
+
+    .starting {
+        color: white;
+        padding-top: 400px;
+        padding-left: 640px;
+        font-size: 30px;
+
+    }
+
+}
+
+.nzImages {
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 981px;
+    min-height: 347px;
+    // background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+
+    .nzPicOne {
+        height: 347px;
+        width: 298px;
+        background-color: cadetblue;
+        background-image: url(../assests/images/tour-nz/nz-tour-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .nzPicTwo {
+        height: 347px;
+        width: 298px;
+        background-color: cadetblue;
+        background-image: url(../assests/images/tour-nz/nz-tour-02.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .nzPicThree {
+        height: 347px;
+        width: 298px;
+        background-color: cadetblue;
+        background-image: url(../assests/images/tour-nz/nz-tour-03.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+.nzDays {
+    padding-top: 30px;
+    flex-direction: column;
+    // background-color: red;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    // min-height: 775px;
+    max-width: 981px;
+
+    .nzDayOne {
+        
+        max-width: 981px;
+        min-height: 205px;
+        // background-color: chocolate;
+        // padding-bottom: 100px;
+    }
+
+    .nzDayTwo {
+        // padding-top: 100px;
+        max-width: 981px;
+        min-height: 205px;
+        // background-color: chocolate;
+    }
+
+    .nzDayThree {
+        // padding-top: 100px;
+        max-width: 981px;
+        min-height: 205px;
+        // background-color: chocolate;
+    }
+
+}
+
+
+.block {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bookNow {
+        
+        margin: 0 auto;
+        width: 133px;
+        height: 40px;
+        background-color: cornflowerblue;
+    }
+
+}
+
+
+@media only screen and (max-width: 1160px) {
+    .nzDays {
+      width: 800px;
+    }
+
+    .nzImages {
+        width: 350px;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
+    .nzHero {
+        width: 800px; 
+    }
+  }
